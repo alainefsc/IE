@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inteligência Emocional</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Desenvolvendo sua Inteligência Emocional</h1>
+        <nav>
+            <ul>
+                <li><a href="#pilares">Pilares</a></li>
+                <li><a href="#testes">Testes</a></li>
+                <li><a href="#ferramentas">Ferramentas</a></li>
+                <li><a href="#respiracao">Jogo de Respiração</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="pilares">
+        <h2>Pilares da Inteligência Emocional</h2>
+        <button onclick="mostrarPilares()">Ver Pilares</button>
+        <ul id="listaPilares" style="display: none;">
+            <li><strong>Autoconsciência:</strong> Reconhecer e entender suas próprias emoções.</li>
+            <li><strong>Autorregulação:</strong> Controlar emoções e evitar reações impulsivas.</li>
+            <li><strong>Motivação:</strong> Manter-se focado e positivo diante de desafios.</li>
+            <li><strong>Empatia:</strong> Compreender e respeitar as emoções dos outros.</li>
+            <li><strong>Habilidades Sociais:</strong> Construir relacionamentos e se comunicar bem.</li>
+        </ul>
+    </section>
+    
+    <section id="testes">
+        <h2>Teste seus Sabotadores</h2>
+        <button onclick="iniciarTeste()">Iniciar Teste</button>
+        <div id="teste"></div>
+        <div id="resultado"></div>
+    </section>
+    
+    <section id="ferramentas">
+        <h2>Ferramentas para Desenvolver sua IE</h2>
+        <ul>
+            <li><a href="https://www.youtube.com/watch?v=P3IktPVhvFo" target="_blank">Vídeo sobre Inteligência Emocional</a></li>
+        </ul>
+    </section>
+    
+    <section id="respiracao">
+        <h2>Jogo de Respiração</h2>
+        <button onclick="iniciarRespiracao()">Começar</button>
+        <p id="instrucoes"></p>
+        <p id="contador"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
